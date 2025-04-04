@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="files description">
+    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="fastapi app set up + endpoints set">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/pydantic_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/pydantic_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743762601258</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fastapi app set up + endpoints set">
+      <option name="closed" value="true" />
+      <created>1743763110077</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743763110077</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -104,6 +112,7 @@
     <MESSAGE value="create requirements.txt + packages install" />
     <MESSAGE value="project skeleton" />
     <MESSAGE value="files description" />
-    <option name="LAST_COMMIT_MESSAGE" value="files description" />
+    <MESSAGE value="fastapi app set up + endpoints set" />
+    <option name="LAST_COMMIT_MESSAGE" value="fastapi app set up + endpoints set" />
   </component>
 </project>
