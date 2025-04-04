@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="fastapi app set up + endpoints set">
+    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="Pydantic models creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/pydantic_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/pydantic_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743763110077</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Pydantic models creation">
+      <option name="closed" value="true" />
+      <created>1743772516148</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743772516148</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,6 +121,7 @@
     <MESSAGE value="project skeleton" />
     <MESSAGE value="files description" />
     <MESSAGE value="fastapi app set up + endpoints set" />
-    <option name="LAST_COMMIT_MESSAGE" value="fastapi app set up + endpoints set" />
+    <MESSAGE value="Pydantic models creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pydantic models creation" />
   </component>
 </project>
