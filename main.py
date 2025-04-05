@@ -106,6 +106,13 @@ class App:
 
         @self.app.post('/delete-doc')
         def delete_document(request: DeleteFileRequest) -> Dict[Text, Text]:
+            """
+            Endpoint handles document deletion, removing
+            the document from the Chroma and database
+            :param request:
+            :return:
+            """
+
             chroma_delete_success: bool = self.chroma_utils.delete_doc_from_chroma(request.file_id)
 
             if chroma_delete_success:
