@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="small updates">
-      <change beforePath="$PROJECT_DIR$/utils/chroma_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/chroma_utils.py" afterDir="false" />
+    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="Returnable data type change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743872435364</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Chroma vector store implementation">
+      <option name="closed" value="true" />
+      <created>1743874438710</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743874438710</updated>
+    </task>
+    <task id="LOCAL-00012" summary="LangChain utils implementation">
+      <option name="closed" value="true" />
+      <created>1743876185142</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743876185142</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Returnable data type change">
+      <option name="closed" value="true" />
+      <created>1743890636405</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743890636405</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -157,6 +182,9 @@
     <MESSAGE value="db utils implementation" />
     <MESSAGE value="some small changes" />
     <MESSAGE value="small updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="small updates" />
+    <MESSAGE value="Chroma vector store implementation" />
+    <MESSAGE value="LangChain utils implementation" />
+    <MESSAGE value="Returnable data type change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Returnable data type change" />
   </component>
 </project>
