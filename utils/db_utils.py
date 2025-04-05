@@ -127,7 +127,7 @@ class DBUtils:
         connection.close()
         return True
 
-    def get_all_documents(self) -> List[Dict]:
+    def get_all_documents(self) -> List[Dict[Text, Text]]:
         """
         Retrieves all document records from document_store table
         :return:
