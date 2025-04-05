@@ -9,7 +9,11 @@ from typing import Dict, List, Text, Tuple
 
 
 class DBUtils:
-    DB_NAME = 'rag_app.db'
+    """
+    Class for interactions with SQLite database
+    """
+
+    DB_NAME: str = 'rag_app.db'
 
     def __init__(self) -> None:
         pass

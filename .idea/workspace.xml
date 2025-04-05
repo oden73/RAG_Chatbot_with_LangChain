@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="fast api changes">
+    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="some small changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/db_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/db_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/chroma_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/chroma_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743773361512</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="db utils implementation">
+      <option name="closed" value="true" />
+      <created>1743865009012</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743865009012</updated>
+    </task>
+    <task id="LOCAL-00009" summary="some small changes">
+      <option name="closed" value="true" />
+      <created>1743865022603</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743865022603</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +147,8 @@
     <MESSAGE value="fastapi app set up + endpoints set" />
     <MESSAGE value="Pydantic models creation" />
     <MESSAGE value="fast api changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fast api changes" />
+    <MESSAGE value="db utils implementation" />
+    <MESSAGE value="some small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some small changes" />
   </component>
 </project>
