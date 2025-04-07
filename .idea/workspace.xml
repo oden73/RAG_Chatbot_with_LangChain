@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="Rename FastApi class file">
-      <change afterPath="$PROJECT_DIR$/streamlit_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/chat_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/sidebar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/api_utils.py" afterDir="false" />
+    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="App structure refactoring">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/utils/api_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/utils/api_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +45,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mehew\Desktop\repos\RAG_and_LangChain_Chatbot\utils" />
-      <recent name="C:\Users\mehew\Desktop\repos\RAG_and_LangChain_Chatbot\model" />
+      <recent name="C:\Users\mehew\Desktop\repos\RAG_and_LangChain_Chatbot\ui\utils" />
+      <recent name="C:\Users\mehew\Desktop\repos\RAG_and_LangChain_Chatbot\ui" />
+      <recent name="C:\Users\mehew\Desktop\repos\RAG_and_LangChain_Chatbot\ui\components" />
+      <recent name="C:\Users\mehew\Desktop\repos\RAG_and_LangChain_Chatbot\application_api" />
+      <recent name="C:\Users\mehew\Desktop\repos\RAG_and_LangChain_Chatbot\api" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -194,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743984893304</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="UI files skeleton">
+      <option name="closed" value="true" />
+      <created>1743985153281</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1743985153281</updated>
+    </task>
+    <task id="LOCAL-00018" summary="App structure refactoring">
+      <option name="closed" value="true" />
+      <created>1743985338649</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1743985338649</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -213,6 +231,8 @@
     <MESSAGE value="Returnable data type change" />
     <MESSAGE value="FastApi app implementation(except run method)" />
     <MESSAGE value="Rename FastApi class file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename FastApi class file" />
+    <MESSAGE value="UI files skeleton" />
+    <MESSAGE value="App structure refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="App structure refactoring" />
   </component>
 </project>
