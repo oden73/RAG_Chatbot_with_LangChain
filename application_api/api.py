@@ -4,10 +4,10 @@ This file defines API routes and orchestrates
 the different components of the system
 """
 
-from model.pydantic_models import QueryInput, QueryResponse, DocumentInfo, DeleteFileRequest
-from utils.chroma_utils import ChromaUtils
-from utils.langchain_utils import LangChainUtils
-from utils.db_utils import DBUtils
+from application_api.model.pydantic_models import QueryInput, QueryResponse, DocumentInfo, DeleteFileRequest
+from application_api.utils.chroma_utils import ChromaUtils
+from application_api.utils.langchain_utils import LangChainUtils
+from application_api.utils.db_utils import DBUtils
 
 from fastapi import FastAPI, File, UploadFile, HTTPException
 import os
@@ -120,8 +120,8 @@ class App:
                 if db_delete_success:
                     return {'message': f'Successfully deleted document with file_id {request.file_id} from system.'}
                 else:
-                    return {'error': f'Deleted from Chroma but failed to delete document with file_id {request.file_id} '
-                                     f'from the database.'}
+                    return {'error': f'Deleted from Chroma but failed to delete document with file_id {request.file_id}'
+                                     f' from the database.'}
             else:
                 return {'error': f'Failed to delete document with file_id {request.file_id} from Chroma.'}
 

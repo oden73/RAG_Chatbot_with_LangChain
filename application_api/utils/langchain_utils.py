@@ -4,7 +4,7 @@ such as creating the RAG chain and
 configuring the language model
 """
 
-from utils.chroma_utils import ChromaUtils
+from application_api.api import ChromaUtils
 from langchain_prompts import contextualize_q_prompt, qa_prompt
 
 from langchain_openai import ChatOpenAI

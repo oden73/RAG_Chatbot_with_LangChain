@@ -5,7 +5,7 @@ functions for indexing documents and
 performing similarity searches
 """
 
-from exceptions.file_type_exception import FileTypeException
+from application_api.exceptions.file_type_exception import FileTypeException
 
 from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, UnstructuredCHMLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
