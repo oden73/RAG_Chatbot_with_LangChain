@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="App structure refactoring">
+    <list default="true" id="9c99ca0d-fa6c-4773-bbbb-db04132f5715" name="Changes" comment="API utils implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/utils/api_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/utils/api_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/components/chat_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/components/chat_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/components/sidebar.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/components/sidebar.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743985338649</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="API utils implementation">
+      <option name="closed" value="true" />
+      <created>1743986763983</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1743986763983</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -233,6 +241,7 @@
     <MESSAGE value="Rename FastApi class file" />
     <MESSAGE value="UI files skeleton" />
     <MESSAGE value="App structure refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="App structure refactoring" />
+    <MESSAGE value="API utils implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="API utils implementation" />
   </component>
 </project>
