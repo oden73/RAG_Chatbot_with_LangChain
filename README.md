@@ -64,8 +64,8 @@ Project is based on an example described in
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/oden73/RAG_and_LangChain_Chatbot.git
-cd RAG_and_LangChain_Chatbot
+git clone https://github.com/oden73/RAG_Chatbot_with_LangChain.git
+cd RAG_Chatbot_with_LangChain
 ```
 
 ### 2. Create virtual environment
