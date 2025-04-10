@@ -28,7 +28,7 @@ class APIUtils:
 
         try:
             response: requests.Response = requests.post(
-                url='http://localhost:8000/chat', headers=headers, json=data
+                url='http://localhost:8000', headers=headers, json=data
             )
             if response.status_code == 200:
                 return response.json()
