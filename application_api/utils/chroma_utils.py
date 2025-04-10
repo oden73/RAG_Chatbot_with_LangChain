@@ -7,12 +7,13 @@ performing similarity searches
 
 from application_api.exceptions.file_type_exception import FileTypeException
 
-from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, UnstructuredCHMLoader
+from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, UnstructuredHTMLLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_openai import OpenAIEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from typing import List, Dict, Text, Any
+import os
 
 
 class ChromaUtils:
@@ -20,7 +21,7 @@ class ChromaUtils:
     Class for interaction with Chroma vector storage
     """
 
-    CHROMA_DIRECTORY: str = r'../chroma_db'
+    CHROMA_DIRECTORY: str = os.path.abspath(path='../chroma_db')
 
     def __init__(self) -> None:
         self.text_splitter: RecursiveCharacterTextSplitter = RecursiveCharacterTextSplitter(
@@ -28,7 +29,9 @@ class ChromaUtils:
             chunk_overlap=200,
             length_function=len
         )
-        self.embedding_function: OpenAIEmbeddings = OpenAIEmbeddings()
+        self.embedding_function: HuggingFaceEmbeddings = HuggingFaceEmbeddings(
+            model_name='sentence-transformers/all-MiniLM-L6-V2'
+        )
         self.vector_store: Chroma = Chroma(
             persist_directory=ChromaUtils.CHROMA_DIRECTORY,
             embedding_function=self.embedding_function
@@ -46,7 +49,7 @@ class ChromaUtils:
         elif file_path.endswith('.docx'):
             loader: Docx2txtLoader = Docx2txtLoader(file_path)
         elif file_path.endswith('.html'):
-            loader: UnstructuredCHMLoader = UnstructuredCHMLoader(file_path)
+            loader: UnstructuredHTMLLoader = UnstructuredHTMLLoader(file_path)
         else:
             raise FileTypeException('')
 

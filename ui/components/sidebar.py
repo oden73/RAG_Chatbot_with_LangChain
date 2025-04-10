@@ -20,7 +20,7 @@ class Sidebar:
         """
 
         # Model selection
-        model_options: List[Text] = ['gpt-4o', 'gpt-4o-mini']
+        model_options: List[Text] = ['llama3', 'llama2']
         st.sidebar.selectbox('Select Model', options=model_options, key='model')
 
         # Document upload
