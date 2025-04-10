@@ -14,11 +14,6 @@ class ModelName(str, Enum):
     Defines the available language models for system
     """
 
-    # OpenAI models
-    GPT4_O = 'gpt-4o'
-    GPT4_0_MINI = 'gpt-4o-mini'
-    GPT3_5_TURBO = 'gpt-3.5-turbo'
-
     # Llama models
     LLAMA3 = 'llama3'
     LLAMA2 = 'llama2'
