@@ -26,7 +26,7 @@ class QueryInput(BaseModel):
 
     question: str
     session_id: str = Field(default=None)
-    model: ModelName = Field(default=ModelName.GPT4_0_MINI)
+    model: ModelName = Field(default=ModelName.LLAMA3)
 
 
 class QueryResponse(BaseModel):
